@@ -14,6 +14,6 @@ func main() {
 	if webappListener != nil {
 		fmt.Printf("Unable to bind port  %v\n", webappListener)
 	} else {
-		fmt.Println("Application is listening on port 8080")
+		fmt.Println("Application is listening on port 80")
 	}
 }
