@@ -5,4 +5,6 @@ resource "aws_instance" "ec2_instance" {
   instance_type = var.instance_type
   key_name      = var.key_name
   subnet_id     = var.subnet_id
+  security_groups = [aws_security_group.rules.id]
+
 }

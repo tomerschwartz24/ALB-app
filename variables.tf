@@ -1,4 +1,4 @@
-######################EC2 VARIABLES#######################
+######################ec2-creation.tf variables#######################
 //Image ID
 variable "ami_id" {
   description = "ID of the AMI to use for the EC2 instances"
@@ -26,7 +26,9 @@ variable "subnet_id" {
   type        = string
   default = "subnet-01976201061a8a63d"
 }
-##########################################################
+########################################################################
+
+
 
 
 
