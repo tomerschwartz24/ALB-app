@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 User=root
-ExecStart=/<Location to go binary>
+ExecStart=/home/ubuntu/httpg
 Restart=always
 RestartSec=10
 [Install]
