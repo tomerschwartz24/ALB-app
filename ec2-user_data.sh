@@ -1,5 +1,5 @@
 #!/bin/bash
-apt-get install go -y 
+apt-get install golang -y 
 go build httpg.go
 cp httpg /home/ubuntu
 cp httpg.service /etc/systemd/system
