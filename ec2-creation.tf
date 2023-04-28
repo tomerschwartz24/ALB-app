@@ -11,5 +11,7 @@ resource "aws_instance" "ec2_instance" {
   #!/bin/bash
   apt-get install git -y 
   git clone https://github.com/tomerschwartz24/ALB-app.git
+  cd ALB-app 
+  ./ec2-user_data.sh
   EOF
 }
