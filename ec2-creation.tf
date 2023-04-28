@@ -7,6 +7,10 @@ resource "aws_instance" "ec2_instance" {
   subnet_id     = var.subnet_id
   security_groups = [aws_security_group.rules.id]
 
+  tags = {
+    Name = "ALB-EC2-webapp-${count.index+1}"
+  }
+
   user_data = <<-EOF
   #!/bin/bash
   apt-get install git -y 
