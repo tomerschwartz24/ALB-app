@@ -3,7 +3,7 @@ Description=Golang Web Server
 After=network.target
 
 [Service]
-User=root
+User=ubuntu
 ExecStart=/home/ubuntu/httpg
 Restart=always
 RestartSec=10
