@@ -1,0 +1,11 @@
+[Unit]
+Description=Golang Web Server
+After=network.target
+
+[Service]
+User=root
+ExecStart=/<Location to go binary>
+Restart=always
+RestartSec=10
+[Install]
+WantedBy=multi-user.target
