@@ -1,5 +1,5 @@
 #!/bin/bash
-apt-get update && apt-get install golang
+apt-get update -y && apt-get install golang -y 
 go build httpg.go
 cp httpg /home/ubuntu
 cp -r application /home/ubuntu
