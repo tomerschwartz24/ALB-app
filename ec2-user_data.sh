@@ -5,4 +5,4 @@ mkdir /etc/httpg
 cp httpg /etc/httpg/
 cp -r application /etc/httpg/
 cp httpg.service /etc/systemd/system
-systemctl daemon-reload && systemctl start httpg
+systemctl daemon-reload && systemctl enable httpg && systemctl start httpg
