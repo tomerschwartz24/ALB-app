@@ -1,8 +1,8 @@
 #!/bin/bash
 apt-get update -y && apt-get install golang -y 
 go build httpg.go
-cp httpg /home/ubuntu
-cp -r application /home/ubuntu
+mkdir /etc/httpg
+cp httpg /etc/httpg/
+cp -r application /etc/httpg/
 cp httpg.service /etc/systemd/system
-
 systemctl daemon-reload && systemctl start httpg
