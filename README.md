@@ -2,8 +2,7 @@
 ## ___Golang Web application behind an AWS Application load balancer___
 ## Tools | Terraform | ELB | ALB | EC2 | EC2 User Data | AWS Security Groups | AWS Target Groups | Systemd | Golang
 <br>
-  <img src="README-resources/ec2pic.png" alt="alt text" width="60" height="60"> 
-  <img src="README-resources/elbpic.png" alt="alt text" width="60" height="60"> 
+  <img src="README-resources/ec2pic.png" alt="alt text" width="60" height="60"> <img src="README-resources/elbpic.png" alt="alt text" width="60" height="60"> 
   <img src="README-resources/gopic.png" alt="alt text" width="70" height="80"> 
   <img src="README-resources/tf.png" alt="alt text" width="90" height="90">
 
