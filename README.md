@@ -17,6 +17,6 @@
 
 ### ___This project utilizes Terraform in order to deploy AWS resources___
   1. all relevant .tf files to deploy the necessary ELB and webserver are included
-  2. Terraform deployment visualalization :  
+  2. Terraform deployment visualization :  
 
   <img src="README-resources/TF-Graph.jpg" alt="alt text" width="750" height="600">
