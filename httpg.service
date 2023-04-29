@@ -1,11 +1,13 @@
 [Unit]
-Description=Golang Web Server
-After=network.target
+Description=Golang web server
 
 [Service]
-User=ubuntu
-ExecStart=/home/ubuntu/httpg
-Restart=always
-RestartSec=10
+Type=simple
+User=root
+WorkingDirectory=/etc/httpg
+ExecStart=/etc/httpg/httpg
+TimeoutStopSec=300
+
 [Install]
 WantedBy=multi-user.target
+#multi-user.target defines a system state where all network services are started up and the system will accept logins
