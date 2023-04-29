@@ -3,14 +3,7 @@
 ## Tools | Terraform | ELB | ALB | EC2 | EC2 User Data | AWS Security Groups | AWS Target Groups | Systemd | Golang
 
 
-  <img src="README-resources/ec2pic.png" alt="alt text" width="60" height="60"> 
-  <img src="README-resources/elbpic.png" alt="alt text" width="60" height="60"> 
-  <img src="README-resources/ec2pic.png" alt="alt text" width="60" height="60"> 
-  <img src="README-resources/elbpic.png" alt="alt text" width="60" height="60"> 
-  <img src="README-resources/gopic.png" alt="alt text" width="70" height="80"> 
-  <img src="README-resources/tf.png" alt="alt text" width="90" height="90">
-
-<br>
+<img src="README-resources/ec2pic.png" alt="alt text" width="60" height="60"><img src="README-resources/elbpic.png" alt="alt text" width="60" height="60"><img src="README-resources/gopic.png" alt="alt text" width="70" height="80"><img src="README-resources/tf.png" alt="alt text" width="90" height="90">
 
 ### ___Overview___
 * EC2 instances creation `aws_instance.ec2_instance` with the relevant variables `var.instance_type` `var.key_name` `var.subnet_id` + security group `aws_security_group.rules` with ports 80/22 is initialized.
