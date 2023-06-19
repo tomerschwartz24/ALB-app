@@ -19,4 +19,9 @@
   1. all relevant .tf files to deploy the necessary ELB and webserver are included
   2. Terraform deployment visualization :  
 
+## Architecture 
+  <img src="README-resources/ALB-app-arch.png" alt="alt text" width="750" height="450"> <br>
+
+
+## TF Graph 
   <img src="README-resources/TF-Graph.jpg" alt="alt text" width="750" height="600">
